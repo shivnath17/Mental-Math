@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="#1e5847"
+    tools:context="com.example.shivnath.mental_mathv01.practice_screen">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_weight="1"
+        android:hint="Time"
+        />
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:hint="Point"
+        android:textSize="50sp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Question"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:id="@+id/question"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:textSize="50sp"
+        android:hint="Answer"
+        android:gravity="center"
+        android:id="@+id/answer"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/genrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genrate" />
+
+
+
+</LinearLayout>

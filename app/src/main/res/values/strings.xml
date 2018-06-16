@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mental_Math V0.2</string>
+    <string name="no_of_question">No. OF Question</string>
+    <string name="right_answer">Right Answer</string>
+</resources>
